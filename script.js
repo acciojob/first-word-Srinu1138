@@ -1,6 +1,6 @@
 function firstWord(s) {
   // your code here
-let s = "see and stop";
+let s = "";
 let n = s.length;
 let ans ='';
 for (let i=0; i<n; i++){
