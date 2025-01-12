@@ -1,14 +1,11 @@
 function firstWord(s) {
   // your code here
-let s = "";
 let n = s.length;
 let ans ='';
-for (let i=0; i<n; i++){
-    if(s[i]!=" "){
-        ans = ans+s[i];
-    }else{
-        break;
-    }
+while(i<n && s[i]===" "){
+	i++;
+}while (i<n && s[i]!= " "){
+	ans = ans+s[i];
 }
 console.log(ans);
 }
